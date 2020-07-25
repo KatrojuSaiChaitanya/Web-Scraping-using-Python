@@ -26,8 +26,7 @@ What are the things which are to be installed in your system?
 - This project is built using python version 3.7 
 
 Libraries to be installed ?          
-                                                Versions
-                                        
+                                              
 1.  pip install regex                           2020.7.14
 2.  pip install google-search                   1.0.2
 3.  pip install requests                        2.24.0
