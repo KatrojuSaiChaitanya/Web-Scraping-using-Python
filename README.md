@@ -27,21 +27,20 @@ What are the things which are to be installed in your system?
 
 Libraries to be installed ?          
                                               
-1.  pip install regex                           (2020.7.14)
-2.  pip install google-search                   (1.0.2)
-3.  pip install requests                        (2.24.0)
-5.  pip install beautifulsoup4                  (4.9.1)
-6   pip install tld                             (0.12.2)
+1.  pip install regex                         (2020.7.14)
+2.  pip install google-search                 (1.0.2)
+3.  pip install requests                      (2.24.0)
+5.  pip install beautifulsoup4                (4.9.1)
+6   pip install tld                           (0.12.2)
 
 # Deployment
 
 Now you are good to go :)
 
 1. Clone and download the zip file.
-2. Extract the file in your required directory.
-3. Erase the content in the csv file except the header.
+2. Extract the file into your required directory.
+3. Erase the content in the .csv file and keep the header undisturbed.
 4. Run the script 
-
 
 # Execution
 
