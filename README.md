@@ -51,19 +51,19 @@ Now you are good to go :)
 
 # How does it Work?
 
-1. Firstly, It generates a link for the input which is being provided. This, It does using 'search' from the google-search librarya and stores successively in the 'web_urls.txt' 
+1. Firstly, It generates a link for the input which is being provided. It does this using 'search' from the google-search library and      stores the present and all the successive urls in the 'web_urls.txt' 
 2. Secondly, We now process each and every URL by requesting a HTTP response to the website.
 3. We convert the entire page of that respective url into a html scripted text using bs4.
 4. Now that we have extracted the entire content from the web page, we have to scrap all the emails and phone numbers present in the home page.
 5. The scraping of the data is all done by regular expressions.
-6. The regex code employed in this project is the one which is generalized, which detects and throws back mails along with phone no's from most of the websites. Nevertheless,      for some it might not detect.
+6. The regex code employed in this project is the one which is generalized, which detects and throws back mails along with phone no's from most of the websites. Nevertheless,      for some it might not go well.
 7. If the data is not detected in the home page of the website, It traces the contact page and starts collecting the data if present, as most of the websites' contact              details reside in the contact-us webpage
 8. Now we merge the home page data and contact page data into a single data structure.
-9. Finally, We dump the entire stuff into a csv file, so that the data is not in a dishevelled manner.
+9. Finally, We dump the entire stuff into a .csv file, so that the data is not in a dishevelled manner and is used for inspection.
 
 # Built with
 
-Python 3.x
+Python 3.x - A Programming Language
 
 # Contributing
 
